@@ -4,55 +4,62 @@
     font-size: 1em;
     line-height: 1.8;
     list-style: none;
-    
 }
 
 body {
     color: #fff;
     background-color: #000;
     margin: 0 auto;
+    width: 1400px;
 }
 
 header{
     width: 1024px;
-    margin: 0 auto;
-    height: 100px;
-    padding: 10px;
+    margin: 10px auto;
+    height: 8vh;
+    
+}
+/*NAV - LOGO*/
+
+.container_principal {
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-between;
     
 }
 
-.container_principal {
-    height: 100px;
-    display: flex;
+.social_media a{
+    margin-right: 30px;
+    font-size: 1.5em;
+    color: #fff;
+    
 
 }
-.container_principal .logo_principal {
-    margin: auto 0;
-}
-.container_principal .social_media {
-    margin: auto 0;
-}
 
-.social_media ul li{
-    display: flex;
+.social_media a:hover {
+    color: #ed008c;
 }
 
 .logo_principal {
     width: 100%;
+    height: 9vh;
 }
 
 .logo_principal img {
     width: 250px;
 }
 
+/*FIM NAV - LOGO*/
 
-.image_container {
+
+.img_container {
     width: 100%;
 }
 
 .central_image {
-    width: 100%;   
-    margin-top: 20px; 
+    width: 100%;
 }
 
 .paragraph {
@@ -66,7 +73,7 @@ header{
 
 .container {
     width: 800px;
-    margin: 70px auto 80px;
+    margin: 70px auto 40px;
 
 }
 
@@ -78,9 +85,85 @@ header{
     width: 100%;
     text-align: center;
     font-size: 1.5em;
+    color: #ed008c;
+    margin-bottom: 40px;
+    
+}
+
+.video {
+    width: 100%;
+    
+}
+
+._video {
+    
+    text-align: center;
+}
+.img_second_container {
+    width: 1024px;
+    margin: 0 auto ;
+}
+.second_img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.third_img {
+    width: 100%;
+    display: block;
+    z-index: 1;
+}
+
+.rounded_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: -700px;
+    z-index: 10;
+    border: 4px solid #e64aa5;
+}
+
+.bottom_img {
+    width: 250px;
+    height: 450px;
+    margin-top: -400px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #000;
+    text-align: center;
+    border: 2px solid #e64aa5;
+}
+
+.bottom_img p {
+    color: #ed008c;
+    font-size: 1.2em;
+}
+
+.bottom_img p:first-of-type {
+    margin-top: 200px;
+}
+
+.content_img {
+    margin:  0 auto;
+}
+
+.qrcode {
+    width: 100%;
+    text-align: center;
+}
+
+._qrcode {
+    width: 330px;
+    height: 330px;
 }
 
 footer {
     background-color: #ed008c;
     color: #000;
+    text-align: center;
 }
